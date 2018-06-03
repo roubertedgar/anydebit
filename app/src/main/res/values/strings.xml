@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">anydebit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_menu_title">Resume</string>
+    <string name="expense_menu_title">Expense</string>
+</resources>
