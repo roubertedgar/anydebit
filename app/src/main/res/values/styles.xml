@@ -1,17 +1,19 @@
 <resources>
 
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorSecondary">@color/colorSecondary</item>
-        <item name="android:statusBarColor">@color/colorBackground</item>
-        <item name="android:colorBackground">@color/colorBackground</item>
-        <item name="colorError">@color/colorError</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary400</item>
+        <item name="colorOnPrimary">@color/primary900</item>
 
-        <item name="colorPrimaryVariant">#e0e0e0</item>
-        <item name="colorSecondaryVariant">#f57f17</item>
-        <item name="colorOnPrimary">@color/colorBackground</item>
-        <item name="colorOnSecondary">@color/colorBackground</item>
-        <item name="colorOnError">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary800</item>
+        <item name="colorOnSecondary">@color/primary900</item>
+
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/primary50</item>
+
+        <item name="android:statusBarColor">@color/primary900</item>
+        <item name="android:colorBackground">@color/primary900</item>
 
         <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
         <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>

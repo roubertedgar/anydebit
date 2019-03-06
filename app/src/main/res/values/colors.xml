@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#eeeeee</color>
-    <color name="colorSecondary">#fbc02d</color>
-    <color name="colorBackground">#212121</color>
+    <color name="primary">#e0e0e0</color>
+    <color name="primary50">#fafafa</color>
+    <color name="primary400">#bdbdbd</color>
+    <color name="primary800">#424242</color>
+    <color name="primary900">#212121</color>
+
+    <color name="secondary">#fbc02d</color>
+    <color name="secondary800">#f9a825</color>
     <color name="colorError">#D81B60</color>
 </resources>
