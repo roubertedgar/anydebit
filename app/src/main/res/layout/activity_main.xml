@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.design.widget.CoordinatorLayout
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomBar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/bottomMenu">
-
-        <fragment
-            android:id="@+id/hostFragment"
-            android:name="androidx.navigation.fragment.NavHostFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:defaultNavHost="true"
-            app:navGraph="@navigation/main_nav_graph" />
-    </android.support.design.widget.CoordinatorLayout>
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/bottomMenu"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="2dp"
-        app:menu="@menu/bottom_menu" />
-</RelativeLayout>
+        app:fabCradleMargin="-10dp" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/addButton"
+        android:text="Bla"
+        app:icon="@drawable/ic_add_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/bottomBar"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
