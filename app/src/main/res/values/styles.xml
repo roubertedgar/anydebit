@@ -2,7 +2,7 @@
 
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryVariant">@color/primary400</item>
+        <item name="colorPrimaryVariant">@color/primary100</item>
         <item name="colorOnPrimary">@color/primary900</item>
 
         <item name="colorSecondary">@color/secondary</item>
@@ -15,14 +15,17 @@
         <item name="android:statusBarColor">@color/primary900</item>
         <item name="android:colorBackground">@color/primary900</item>
 
-        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
-        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
-        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
-        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4</item>
-        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5</item>
-        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6</item>
-        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
-        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
+        <item name="textAppearanceHeadline1">@style/EconomicaBold.HeadLine1</item>
+        <item name="textAppearanceHeadline2">@style/EconomicaBold.HeadLine2</item>
+        <item name="textAppearanceHeadline3">@style/EconomicaBold.HeadLine3</item>
+        <item name="textAppearanceHeadline4">@style/EconomicaBold.HeadLine4</item>
+        <item name="textAppearanceHeadline5">@style/EconomicaBold.HeadLine5</item>
+        <item name="textAppearanceHeadline6">@style/EconomicaBold.HeadLine6</item>
+
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1
+        </item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2
+        </item>
         <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
         <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
         <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
@@ -31,6 +34,37 @@
 
 
         <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>
+    </style>
+
+
+    <style name="EconomicaBold.HeadLine1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/economica_bold</item>
+        <item name="android:textSize">94.45sp</item>
+    </style>
+
+    <style name="EconomicaBold.HeadLine2" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/economica_bold</item>
+        <item name="android:textSize">59.03sp</item>
+    </style>
+
+    <style name="EconomicaBold.HeadLine3" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/economica_bold</item>
+        <item name="android:textSize">47.22sp</item>
+    </style>
+
+    <style name="EconomicaBold.HeadLine4" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/economica_bold</item>
+        <item name="android:textSize">33.45sp</item>
+    </style>
+
+    <style name="EconomicaBold.HeadLine5" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/economica_bold</item>
+        <item name="android:textSize">23.61sp</item>
+    </style>
+
+    <style name="EconomicaBold.HeadLine6" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/economica_bold</item>
+        <item name="android:textSize">19.68sp</item>
     </style>
 
 </resources>
