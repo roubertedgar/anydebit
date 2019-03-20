@@ -2,7 +2,7 @@
 
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryVariant">@color/primary100</item>
+        <item name="colorPrimaryVariant">@color/secondary</item>
         <item name="colorOnPrimary">@color/primary900</item>
 
         <item name="colorSecondary">@color/secondary</item>
